@@ -6,9 +6,8 @@ body {
 
 #grid {
   display: grid;
-  height: 100%;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(5, 128px);
+  grid-template-rows: repeat(5, 128px);
   gap: 5px;
   background: white;
   padding: 5px;
